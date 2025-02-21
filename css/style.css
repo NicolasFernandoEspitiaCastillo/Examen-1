@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0 auto;
     background: var(--color-2);
+    
 }
 .container_header {
     /* background: red; */
-    width: 1440px;
-    height: 141px;
+  
+   
     padding-top: 22px;
     padding-bottom: 14px;
     display: flex;
@@ -230,6 +230,7 @@ body{
     /* background: violet; */
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 .list {
     /* background: teal; */
@@ -251,6 +252,7 @@ body{
         font-size: 64px;
         font-family: "RobotoCondensed-Bold";
         color: var(--color-2);
+        align-items: center;
     }
 }
 .content{
@@ -260,8 +262,10 @@ body{
     p{
         width: 752px;
         height: 187px;
+        display: flex;
         margin-left: 32px;
         font-size: 28px;
+        align-items: center;
         font-family: "RobotoCondensed-Regular";
         color: var(--color-1);
     }
@@ -271,5 +275,60 @@ body{
         margin-left: 53px;
     }
 }
+/**************** apoyanos **********************/
 
+.container_apoyanos {
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+}
+.container_text {
+    /* background: blue; */
+    margin-left: 140px;
+    margin-top: 212px;
+    h1{
+        width: 305px;
+        height: 71px;
+        font-size: 72px;
+        font-family: "RobotoCondensed-Bold";
+        color: var(--color-1);
+        
+    }
+    p{
+        width: 751px;
+        height: 184px;
+        font-size: 36px;
+        font-family: "RobotoCondensed-Regular";
+        margin-top: 83px;
+        color: var(--color-1);
+    }
+}
 
+.container_img{
+    /* background: violet; */
+    margin-top: 245px;
+    margin-left: 37px;
+    
+}
+.pc{
+    /* background: teal; */
+    width: 375px;
+    height: 305px;
+}
+.aporte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-1);
+    width: 282px;
+    height: 57px;
+    border-radius: 32.5px;
+    margin-left: 47px;
+    margin-top: 52px;
+    button{
+        font-size: 36px;
+        font-family: "RobotoCondensed-Bold";
+        border: none;
+        background: var(--color-1);
+    }
+}
