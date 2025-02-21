@@ -1,0 +1,12 @@
+:root{
+    --color-1: #FFFFFF;
+    --color-2: #000000;
+}
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url(../storage/font/static/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url(../storage/font/static/RobotoCondensed-Regular.ttf);
+}
