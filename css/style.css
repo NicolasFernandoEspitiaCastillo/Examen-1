@@ -4,4 +4,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0 auto;
+    background: var(--color-2);
+}
+.container_header {
+    /* background: red; */
+    width: 1440px;
+    height: 141px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
 
+.container_menu {
+    /* background: blue; */
+    margin-left: -43px;
+    width: 1378px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.img_sol{
+    width: 40px;
+    height: 40px;
+    margin-top: 64px;
+    margin-left: 28px
+}
+.img_aqua{
+    background: var(--color-1);
+    width: 298px;
+    height: 96px;
+    margin-right: 99px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 48px;
+    justify-content: center;
+}
+.img_text{
+    h1{
+        font-size: 48px;
+        font-family: "RobotoCondensed-Regular";
+        font-weight: 100;
+    }
+    
+}
+.img_log{
+    img{
+        width: 46px;
+        height: 45px;
+    }
+    
+}
+.container_options {
+    /* background: violet; */
+    width: 732px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 214px;
+   
+}
+.container_options a{
+    font-size: 24px;
+    font-family: "RobotoCondensed-Bold";
+    color: var(--color-1);
+}
+.img_luna{
+    img{
+        width: 35px;
+        height: 35px;
+    }
+ 
+}
