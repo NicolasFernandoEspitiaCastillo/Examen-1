@@ -68,17 +68,208 @@ body{
     flex-direction: row;
     justify-content: space-between;
     margin-right: 214px;
-   
 }
 .container_options a{
     font-size: 24px;
     font-family: "RobotoCondensed-Bold";
     color: var(--color-1);
+    text-decoration: none;
 }
 .img_luna{
     img{
         width: 35px;
         height: 35px;
     }
- 
 }
+
+/*********************** main ***************************/
+
+.container_main {
+    
+    
+}
+/******************** inicio**********************/
+
+.container_inicio {
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 29px;
+    margin-left: 100px;
+}
+.first_container {
+    /* background: blue; */
+}
+.img_crae {
+    /* background: turquoise; */
+    width: 707px;
+    height: 391px;
+}
+
+.text_crae {
+    /* background: violet; */
+    width: 707px;
+}
+.crae_title{
+    width: 707px;
+    height: 71px;
+    margin-top: 26px;
+    h1{
+        font-size: 56.4px;
+        font-family: "RobotoCondensed-Regular";
+        color: var(--color-1);
+    }
+}
+.crae_paragraph{
+    width: 685px;
+    height: 91px;
+    margin-top: 13px;
+    p{
+        font-size: 26px;
+        font-family: "RobotoCondensed-Regular";
+        color: var(--color-1);
+    }
+}
+.second_container {
+    /* background: teal; */
+    margin-left: 79.45px;
+    
+}
+.img_cards {
+    /* background: yellow; */
+    width: 405.12px;
+    height: 432.07px;
+    margin-top: 48.97px;
+    transform: rotate(13deg);
+}
+.container_button {
+    background: var(--color-1);
+    width: 237px;
+    height: 54px;
+    margin-top: 14.97px;
+    margin-left: 107px;
+    border-radius: 31.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container_button img{
+    width: 36px;
+    height: 36px;
+}
+.container_button button{
+    width: 145px;
+    height: 48px;
+    border: none;
+    background: var(--color-1);
+    font-size: 40px;
+    font-family: "RobotoCondensed-Bold";
+}
+.networks {
+    /* background: orange; */
+    margin-left: 45.44px;
+    width: 82px;
+    height: 218px;
+    margin-top: 340px;
+    padding-bottom: 19.74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.networks a{
+
+}
+.networks a:nth-child(1){
+    /* background: tan; */
+    width: 48.41px;
+    height: 48.4px;
+}
+.networks a:nth-child(2){
+    /* background: tan; */
+    width: 50px;
+    height: 50px;
+}
+.networks a:nth-child(3){
+    /* background: tan; */
+    width: 50px;
+    height: 54.36px;
+}
+
+/******************** como jugar **********************/
+.container_como-jugar {
+    /* background: red; */
+    margin-top: 56px;
+}
+.container_title {
+    /* background: blue; */
+    h1{
+        width: 363px;
+        height: 71px;
+        margin-left: 538px;
+        /* background: orange; */
+        color: var(--color-1);
+        font-size: 64px;
+        font-family: "RobotoCondensed-Bold";
+    }
+    p{
+        width: 654px;
+        height: 146px;
+        margin-left: 393px;
+        margin-top: 41px;
+        /* background: yellow; */
+        font-size: 36px;
+        font-family: "RobotoCondensed-Regular";
+        color: var(--color-1);
+        text-align: center;
+    }
+}
+.container_list {
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    /* background: teal; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 41px;
+}
+.circle {
+    background: var(--color-1);
+    margin-top: 29px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 169px;
+    h1{
+        font-size: 64px;
+        font-family: "RobotoCondensed-Bold";
+        color: var(--color-2);
+    }
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        width: 752px;
+        height: 187px;
+        margin-left: 32px;
+        font-size: 28px;
+        font-family: "RobotoCondensed-Regular";
+        color: var(--color-1);
+    }
+    img{
+        width: 162px;
+        height: 162px;
+        margin-left: 53px;
+    }
+}
+
+
